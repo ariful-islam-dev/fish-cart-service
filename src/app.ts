@@ -14,6 +14,7 @@ app.get("/health", (req, res) => {
 // Routes
 app.get("/cart/me",getMyCart);
 
+app.post("/cart/add-to-cart", addToCart)
 
 app.get("/cart/clear",clearCart);
 
